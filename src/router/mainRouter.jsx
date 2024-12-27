@@ -4,6 +4,7 @@ import LandingPage from "../pages/landingPage";
 import HomePage from "../pages/HomePage";
 import Register from "../pages/auth/Register";
 import SignIn from "../pages/auth/SignIn";
+import Hello from "../pages/Hello";
 
 export const mainRouter = createBrowserRouter([
     {
@@ -17,6 +18,10 @@ export const mainRouter = createBrowserRouter([
             {
                 path : "/home",
                 element : <HomePage />
+            },
+            {
+                path : "/hello",
+                element : <Hello />
             },
         ]
     },
